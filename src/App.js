@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from './components/Menu/sidebar';
+import './components/Menu/styles.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import WpButton from './components/WpButton/WpButton';
+import TopoButton from './components/TopoButton/TopoButton';
 
-function App() {
+import Routes from './routes';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <div id="App">
+        <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+
+        <div id="page-wrap">
+          <Header />
+          <Routes />
+          <WpButton />
+          <TopoButton />
+          <Footer />
+        </div>
+      </div>
+
     </div>
+    
+    
+    
   );
 }
-
-export default App;

@@ -1,0 +1,149 @@
+#footer-container {
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    background-color: #161616;
+}
+
+#footer-left {
+    width: 30%;
+    font-size: 1.5em;
+    padding-top: 4.5%;
+    padding-left: 3%;
+    display: block;
+}
+
+#footer-left a {
+    color: #2b3035;
+    margin-bottom: 2%;
+    text-decoration: none;
+    background-color: #161616;
+    padding: 1%;
+    border-radius: 2px;
+    transition: color 1s, background-color 1s;
+}
+
+#footer-left a:hover {
+    color: white;
+} 
+
+#footer-center {
+    width: 40%;
+    text-align: center;
+}
+
+#phone{
+    display: flex;
+    margin-left: 38%;
+}
+
+#phone a {
+    text-decoration: none;
+    
+}
+
+#mail {
+    display: flex;
+    margin-left: 31.5%
+}
+
+#mail a {
+    text-decoration: none;
+    
+}
+
+.footer-gadgets a{
+    color: #2b3035;
+    transition: color 1s;
+}
+
+.footer-gadgets a:hover {
+    color: white;
+}
+
+#copy p {
+    color: #2b3035;
+    transition: color 2s;
+}
+
+#copy p:hover {
+    color: white;
+}
+
+
+#footer-center img {
+    width: 85%;
+    height: 38%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+
+#footer-right {
+    color: #f7f8f9;
+    font-size: 1.5em;
+    text-align: center;
+    width: 30%;
+    padding-top: 5%;
+}
+
+#footer-right a {
+    padding-right: 3%;
+    font-size: 30px;
+}
+
+#footer-right p {
+    margin-bottom: 0;
+}
+
+#dev-container {
+    text-align: center;
+    background-color: #161616;
+    border-top: 1px solid white;
+}
+#dev-container p {
+    margin-bottom: 0%;
+    color: #2b3035;
+}
+
+#dev-container a {
+    color: #2b3035;
+    text-decoration: none;
+    transition: color 2s;
+}
+
+#dev-container img {
+    width: 9%;
+}
+
+#dev-container a:hover {
+    color: white;
+}
+
+#insta {
+    color: #f09433; 
+    color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+@media(max-width: 800px) {
+    #footer-container {
+        display: grid;
+        height: 100%;
+    }
+
+    #footer-left {
+        width: 100%;
+    }
+
+    #footer-center {
+        width: 100%;
+    }
+
+    #footer-right {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+}
