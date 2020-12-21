@@ -17,5 +17,6 @@
 @media(max-width: 750px) {
     .btnp {
         font-size: 1em;
+        padding: 0.5% 3%;
     }
 }

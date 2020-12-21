@@ -91,6 +91,7 @@ body {
 @media(max-width: 750px) {
   .bm-burger-button {
     top: 13px;
+    left: 10px;
     width: 30px;
     height: 24px;
   }
