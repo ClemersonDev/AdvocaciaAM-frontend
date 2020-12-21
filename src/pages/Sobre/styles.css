@@ -222,3 +222,10 @@
     }
 
 }
+
+@media(max-width: 400px) {
+    #social-box h3 {
+        margin-left: 1%;
+        font-size: 1.5em;
+    }
+}
