@@ -43,7 +43,7 @@ body {
   width: 36px;
   height: 30px;
   left: 30px;
-  top: 13px;
+  top: 16px;
 }
 
 /* Color/shape of burger icon bars */
@@ -86,4 +86,12 @@ body {
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width: 750px) {
+  .bm-burger-button {
+    top: 13px;
+    width: 30px;
+    height: 24px;
+  }
 }

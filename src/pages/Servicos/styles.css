@@ -56,4 +56,8 @@
     .grid-container {
         grid-template-columns: auto;
     }
+
+    #atuacoes-container h1 {
+        font: 2em Roboto, sans-serif;
+    }
 }

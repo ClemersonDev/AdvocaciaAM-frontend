@@ -146,4 +146,8 @@
         width: 100%;
         margin-bottom: 3%;
     }
+
+    #dev-container img {
+        width: 20%;
+    }
 }

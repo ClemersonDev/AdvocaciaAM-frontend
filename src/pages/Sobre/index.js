@@ -39,7 +39,7 @@ export default function Sobre() {
                 </div>
                 <br/> <br/>
                 <div id="social-box">
-                    <h2>Responsabilidade Social</h2>
+                    <h3>Responsabilidade Social</h3>
                     <p>Além da atuação “pro bono”, o escritório exerce sua responsabilidade social por meio do incentivo a eventos jurídicos ou sociais.
 Da mesma forma, o a advogada Amanda Magalhães se disponibiliza a palestrar em eventos que não tenham fins lucrativos, sobretudo em universidades ou na OAB, auxiliando na formação de estudantes e jovens advogados e conscientização da sociedade.
 </p>
