@@ -2,9 +2,9 @@ import React from 'react';
 import './styles.css';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import dCivil from '../../assets/adv1.jpg';
-import dCriminal from '../../assets/adv2.jpg';
-import dImobiliario from '../../assets/adv3.jpg';
+import dCivil from '../../assets/direitocivil.png';
+import dCriminal from '../../assets/direitocriminal.png';
+import dImobiliario from '../../assets/direitoimobiliario.png';
 
 export default function Carrossel() {
     return(
