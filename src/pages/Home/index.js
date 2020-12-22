@@ -94,7 +94,7 @@ export default function Home() {
             <div className="container2" id="home-container2">
                 <div id="left-container">
                     <div id="picture">
-                        <img src={advogada}/>
+                        <img src={advogada} alt="adv"/>
                     </div>
                     <div id="perfil">
                         <p>Amanda Raquel Freire de Magalhães é advogada devidamente inscrita na Ordem dos Advogados do Brasil formada em direito pela FIESC-TO, é pós-graduada em direito penal e Processo Penal pelo tradicional Complexo de Ensino Damásio de Jesus. É frequentadora constante de vários cursos de aprimoramento profissional formados por grandes mestres em Direito e profissionais de notório saber jurídico que contribuem com o conhecimento e enriquecimento jurídico dessa causídica;</p>
@@ -107,7 +107,7 @@ export default function Home() {
                         <div id="form-left">                            
                             <input type="text" placeholder="Nome" value={name} onChange={e => setName(e.target.value)} /> <br/>
                             <input type="text" placeholder="E-mail" value={email} onChange={e => setEmail(e.target.value)} /> <br/>
-                            <input placeholder="Telefone" maxLength={11} value={phone} onKeyPress={onlynumber} value={phone} onChange={e => setPhone(e.target.value)}/> <br/>
+                            <input placeholder="Telefone" maxLength={11} value={phone} onKeyPress={onlynumber} onChange={e => setPhone(e.target.value)}/> <br/>
                         </div>                        
                         <div id="form-right">
                             <textarea name="" id="" placeholder="Sua mensagem" value={msgm} onChange={e => setMsgm(e.target.value)} ></textarea> <br/>
